@@ -1,4 +1,4 @@
-# taller-1
+# taller1-equipo-5
 
 ## Instrucciones del taller
 
