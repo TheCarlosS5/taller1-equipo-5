@@ -1,4 +1,4 @@
-# Equipo 5 - los hijos de Elon Musk gir 
+# Equipo 5 - los hijos de Elon Musk
 
 ## Instrucciones del taller
 
