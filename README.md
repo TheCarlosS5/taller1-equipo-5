@@ -1,4 +1,4 @@
-# taller1-equipo-5
+# Equipo 5 - Los Commiteros
 
 ## Instrucciones del taller
 
