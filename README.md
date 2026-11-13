@@ -1,4 +1,4 @@
-# Equipo 5 - Los Commiteros
+# Equipo 5 - los hijos de Elon Musk gir 
 
 ## Instrucciones del taller
 
