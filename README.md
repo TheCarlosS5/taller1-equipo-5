@@ -49,3 +49,6 @@ git push -u origin feature/mi-seccion
 git switch main
 git pull origin main
 ```
+
+Consulta nuestro [estándar de codificación](ESTANDAR.md).
+
