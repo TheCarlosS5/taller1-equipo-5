@@ -4,6 +4,8 @@
 
 Taller 1 del Equipo 5 sobre Git y GitHub. El proyecto incluye una página HTML de ejemplo y las fichas de presentación del equipo. El taller sirve para practicar el trabajo colaborativo con ramas, issues, pull requests y resolución de conflictos.
 
+Consulta nuestro [estándar de codificación](ESTANDAR.md).
+
 ## Integrantes
 
 - Carlos Stiven Gutiérrez Ramírez — [@TheCarlosS5](https://github.com/TheCarlosS5)
@@ -25,9 +27,9 @@ cd taller1-equipo-5
 
 1. Un integrante crea el repo y agrega a los demás como colaboradores.
 2. Crean un issue por tarea: cada uno agrega su sección a index.html.
-3. Cada uno clona el repo y crea su propia rama.
-4. Commit y push de la rama; abre un PR con "Closes #n".
-5. Otro compañero revisa, comenta y aprueba; luego merge.
+3. Cada integrante actualiza `main` y crea una rama con el formato `tipo/nombre`, por ejemplo `feat/samuel`.
+4. Guarda tus cambios con un commit y sube tu rama. Abre un PR hacia `main` y explica qué cambiaste y qué verificaste. Si el PR resuelve un issue, añade `Closes #N` en la descripción y reemplaza `N` por su número.
+5. Pide a otro integrante que revise el PR. Integra los cambios después de recibir al menos una aprobación y pasar las comprobaciones del repositorio.
 6. Dos integrantes editan la misma línea y resuelven el conflicto.
 7. Organizan los issues en un tablero de GitHub Projects.
 
@@ -35,12 +37,20 @@ Entrega: link del repositorio del equipo.
 
 ## Comandos clave
 
+Desde la carpeta del repositorio, actualiza `main` y crea tu rama. Cambia `samuel` por tu nombre.
+
 ```bash
-git clone <url-del-repo>
-git switch -c feature/mi-seccion
-git add .
-git commit -m "feat: mi seccion"
-git push -u origin feature/mi-seccion
+git switch main
+git pull --ff-only origin main
+git switch -c feat/samuel
+```
+
+Después de editar `index.html`, guarda y sube el cambio.
+
+```bash
+git add index.html
+git commit -m "feat: agregar mi sección de presentación"
+git push -u origin feat/samuel
 ```
 
 ## Después del merge
@@ -49,6 +59,3 @@ git push -u origin feature/mi-seccion
 git switch main
 git pull origin main
 ```
-
-Consulta nuestro [estándar de codificación](ESTANDAR.md).
-
