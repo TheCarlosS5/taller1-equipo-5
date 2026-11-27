@@ -43,7 +43,7 @@ git commit -m "feat: mi seccion"
 git push -u origin feature/mi-seccion
 ```
 
-## Despues del merge
+## Después del merge
 
 ```bash
 git switch main
