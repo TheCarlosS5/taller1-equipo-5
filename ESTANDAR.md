@@ -36,11 +36,12 @@ Para mantener el código organizado, legible y uniforme, se establecen las sigui
 **Ejemplo:**
 
 ```javascript
-function saludar() {
+function greet() {
     if (true) {
         console.log('Hola mundo');
     }
 }
+```
 
 ## 3. Comentarios y documentación
 
@@ -78,7 +79,7 @@ la-unica/
 │   ├── facturas/         # Facturación
 │   ├── historial/        # Historial de movimientos
 │   ├── reportes/         # Reportes del sistema
-│   └── sobre_nosotros/   # Información del proyecto
+│   └── sobre-nosotros/   # Información del proyecto
 ├── logs/                 # Registros de errores y eventos
 ├── tests/                # Pruebas técnicas y de seguridad
 ├── wiki/                 # Documentación web interna
